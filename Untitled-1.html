@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./css/Untitled-1.css">
+    <!--캐러셀 1.bxslider 스타일 시트 연결 -->
+    <link rel="stylesheet" href="./js/bxslider-4-4.2.12/dist/jquery.bxslider.css">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <header id="header_top">
+            <div id="toggle" >
+                <img src="./images/icons/toggle.png" alt="toggle">
+            </div>
+            <div>
+                <img src="./images/icons/luge.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">루지</a></li>
+                    <li><a href="#pay">예매</a></li>
+                    <li><a href="#service">안내</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="contents">
+            <div id="intro_img">
+            <div class="slider">
+                    <div><img src="./images/photo/luge_man.jpg" alt="캐러셀 이미지1" ></div>
+                    <div><img src="./images/photo/skyride.jpg" alt="캐러셀 이미지2" ></div> 
+                    <div><img src="./images/photo/luge_family.jpg" alt="캐러셀 이미지3"></div>
+                </div>
+            </div>
+            <section id="intro">
+                
+                <div id="text">
+                    <div class="title">
+                        <div id="button_1">
+                            <a href="./luge_track.html"><img id=luge_map src="./images/icons/botton_1.png" alt=""></a>
+                        </div>
+                        <div id="title_luge">
+                        <h2>루지</h2>
+                        </div>
+                    </div>
+                    <div id="text_text">
+                        <p> 특수하게 제작된 루지카트를 타고, 4개의 트랙 
+                            총 3.8km 구간을 내려오는 어드벤쳐 활동입니다. 
+                            출발지점까지는 스카이라이드(5인승 체어 리프트)를
+                             타고 이동합니다. 구불구불한 코스, 커브구간, 터널 등, 
+                            스릴을 맛보실 수 있도록 설계된 트랙을 따라 
+                            짜릿한 라이딩을 즐겨보세요!</p>
+                        
+                    </div>
+                </div>
+                <div>
+                    <video class="video" autoplay muted controls>
+                        <source type="video/mp4" src="./video/luge.mp4">
+                    </video>
+                </div>
+            </section>
+            <section id="pay">
+                <div class="title">
+                    <h2>온라인 예매</h2>
+                </div>
+                <div id="pay_flex">
+                    <div id="ticket">
+                        
+                        <div class="item">
+                            <div id="thumbnail_1">
+                                <h3>20</h3>
+                            </div>
+                            <div class="description">
+                                <strong>루지&스카이라이드 20회</strong>
+                                <p>최대 5인까지 사용가능</p>
+                                <p>45,000원 절약!</p>
+                            </div>
+                            <div class="won">
+                                <p>￦114,000</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum acti'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="item">
+                            <div id="thumbnail_2">
+                                <h3>5</h3>
+                            </div>
+                            <div class="description">
+                                <strong>루지&스카이라이드 5회</strong>
+                                <p>사용 당일 외 사용 불가</p>
+                            </div>
+                            <div class="won">
+                                <p>￦34,200</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="thumbnail_3">
+                                <h3>4</h3>
+                            </div>
+                            <div class="description">
+                                <strong>루지&스카이라이드 4회</strong>
+                                <p>베스트셀러</p>
+                                <p>뉴질랜드 생수 제공</p>
+                            </div>
+                            <div class="won">
+                                <p>￦31,350</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="thumbnail_4">
+                                <h3>3</h3>
+                            </div>
+                            <div class="description">
+                                <strong>루지&스카이라이드 3회</strong>
+                                <p>기본패키지</p>
+                            </div>
+                            <div class="won">
+                                <p>￦28,500</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="thumbnail_5">
+                                <h3>2</h3>
+                            </div>
+                            <div class="description">
+                                <strong>루지&스카이라이드 2회</strong>
+                                <p>최소한의 탑승</p>
+                            </div>
+                            <div class="won">
+                                <p>￦25,650</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="thumbnail_6">
+                            </div>
+                            <div class="description">
+                                <strong>어린이 동반권</strong>
+                                <p>키 85cm-110cm: 단독 탑승 불가</p>
+                                <p>동반탑승하는 성인과 같은 횟수로 적용</p>
+                            </div>
+                            <div class="won">
+                                <p>￦12,000</p>
+                                <div>
+                                    <input type="text" class='inputNum' oninput="this.value=this.value.replace(/[^0-9]/g,'');" value="1">
+                                    <div class='setNum'>
+                                        <div><p class='addNum'>▲</p></div>
+                                        <div><p class='delNum'>▼</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="basket">
+                        <div id="basket_title">
+                            <strong>장바구니</strong>
+                        </div>
+                        <div id="button_2">
+                            <img src="./images/icons/button_2.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            <section id="service">
+                <div id="service_img">
+                    <!-- 백그라운드이미지 -->
+                </div>
+                <div class="title">
+                    <h2>안내</h2>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>루지를 타려면 키가 얼마나 되어야 하나요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            110cm 이상인 사람은 혼자서 루지를 즐길 수 있습니다.
+                        </P>
+                        <!-- <br/> -->
+                        <p>
+                            키가 85-135cm인 어린이들은 , 150cm 이상의 키를 가진  만19세 이상의 
+                            성인 보호자와 동반 탑승 하실  있습니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>콤보/티켓을 서로 다른 날짜에 사용할 수 있나요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>아니오. 발권티켓, 온라인 티켓 두 경우 다 현장에서 사용하는 날 당일, 
+                            같은 날에만 사용가능합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>루지&스카이라이드 콤보로는 어떤 걸 할 수 있나요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>스카이라이드를 타고 루지 트랙 상부로 올라가셔서 루지를 타고 내려오시면
+                            됩니다. </p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>루지를 즐기는데 소요되는 시간은 얼마나 되나요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>한 번 탑승하시는데 15-20분 소요됩니다.</P>
+                        <!-- <br/> -->
+                        <P>바쁜 시간대에는 더 많은 시간이 소요될 수 있으니 양해바랍니다.</p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>루지에 탑승할 수 있는 마지막 시간은 언제인가요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>티켓팅 마감은 운영종료시간 15분 전까지입니다.</P>
+                        <!-- <br/> -->
+                        <P>
+                        단 주말 및 공휴일은 티켓 판매가 공지 없이 조기 매진될 수 있음을 양해 
+                        부탁드립니다. 또한 현장상황에 따라 방문하신 시간대에 다회권의 판매가 
+                        불가능할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>날씨가 좋지 않을 때는 어떻게 되나요?</strong>
+                    </div>
+                    <div class="answer">
+                        <p>천둥번개가 칠 경우 운행이 일시적으로 중지됩니다. 약간의 비가 내리는 날
+                            에는  정상 운행되며, 안전에 영향을 미칠 수 있는 폭우 시에만 운행이 중지
+                            됩니다.</p>
+                    </div>
+                </div>
+                <div class="service_q">
+                    <div class="question">
+                        <strong>탑승 불가자 안내</strong>
+                    </div>
+                    <div class="answer">
+                        <p>고혈압, 심장병, 디스크, 음주자, 85cm 미만의 아동, 임산부는 탑승하실 수 
+                            없습니다.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            
+            <div id="add_all">
+                <div id="add">
+                <P>
+                스카이라인 루지 통영 주식회사<br/>
+                대표자 : Richard Thomas <br/>
+                등록번호 : 615-81-45513<br/>
+                <a href="#"> 경상남도 통영시 발개로 178, 대한민국</a><br/>
+                전화 : 1522-2468<br/>
+                Email: tongyeong@skylineluge.com<br/>  
+                </P>
+                </div>
+                <div id="button_3">
+                    <img src="./images/icons/button_3left.png" alt="">
+                </div>
+            </div>
+            <div id="sns">
+                <a href="#"><img src="./images/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="./images/icons/insta.png" alt=""></a>
+                <a href="#"><img src="./images/icons/you.png" alt=""></a>
+                <a href="#"><img src="./images/icons/tripadvisor.png" alt=""></a>
+            
+            </div>
+        </footer>
+        <nav id="top_btn">
+            <a href="#header_top">Top</a>
+        </nav>
+    </div>
+    <!--제이쿼리 플러그인 스크립트 소스 연결-->
+    <script src="js/jquery-3.6.1.js"></script>
+    <!--토글 메뉴 구현을 위한 자바스크립트 소스 삽입-->
+    <script>
+        $(function(){
+            //토글 메뉴 플러그인 실행
+            let toggle =$('#toggle');//변수선언
+            let menu =$('nav');
+            $(toggle).on('click', function(e){ //토글을 클릭했을 때
+                e.preventDefault();//오류방지(별로 중요하지x)
+                menu.slideToggle();//slidetoggle 제이쿼리 이미 있는 명령어
+            });
+        });
+    </script>
+   <!--캐러셀 2. bxslider 자바스크립트 소스 연결 cf) min.js:압축된 파일-->
+   <script src="js/jquery.bxslider.js"></script>
+   <!--캐러셀 3. bxslider 자바스크립트 소스 삽입-->
+   <script>
+       $(document).ready(function(){
+         $('.slider').bxSlider({
+           /*캡션 넣기, 이미지에 title 넣기, 마지막에 콤마 넣은 거 주의*/
+           mode: 'fade',
+           captions: false,/*캡션 삽입 여부 */
+           slideWidth: 1300,/*슬라이드 사이즈*/
+            /*오토 쇼*/
+           auto: true,/*오토 슬라이드 여부*/
+           autoControls: false,/*오토 콘트롤러 디스플레이 여부*/
+           stopAutoOnClick: true,
+           pager: true,/*페이지 넘김 버트 디스플레이 여부*/
+           mode: 'fade',
+           pause:5000,/*지연 시간, 기본 4000*/
+           speed:600,/*전환 속도, 기본 500*/
+       });
+       });
+   </script>
+   <script>
+    var inputchk = false;
+            $(function(){
+                $(".setNum div:last-child").css("cursor", "default");
+                $(".setNum div:last-child").css("opacity", "0.5");
+            });
+            $(document).mouseup(function (e) {
+                //jquery는 한번에 click 이벤트 등록이 가능하다.
+                    
+                    var target_class = e.target.className;
+                    var inputValue = Number($(".inputNum").val());
+                    if (target_class == "addNum") {
+                        inputValue += 1;
+                        inputchk = true;
+                        $(".setNum div:last-child").css("cursor", "pointer");
+                        $(".setNum div:last-child").css("opacity", "1");
+                        $(".inputNum").val(inputValue);
+                    } else if (target_class == "delNum" && inputchk == true) {
+                        if(inputValue > 2) {
+                            inputValue -= 1;
+                            $(".inputNum").val(inputValue);
+                        } else if (inputValue == 2){
+                            inputValue -= 1;
+                            $(".inputNum").val(inputValue);
+                            inputchk = false;
+                            $(".setNum div:last-child").css("cursor", "default");
+                            $(".setNum div:last-child").css("opacity", "0.5");
+                        }
+                    
+                    }
+            }); 
+                
+                
+           
+   </script>
+</body>
+</html>
